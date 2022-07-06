@@ -1,3 +1,11 @@
+html {
+	scroll-behavior: smooth;
+}
+
+section {
+    padding: 20px;
+}
+
 #progress-bar {
     --scrollAmount: 0%;
 
@@ -18,4 +26,48 @@
     margin-bottom: 2rem;
     border-radius: .3rem;
     margin-top: 1rem;
-  }
+}
+
+nav {
+    margin-top: 29px;
+    margin-right: 50px;
+    background-color: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: 'AlteHaasGroteskBold', sans-serif;
+}
+
+nav ul li a {
+    color: var(--pink);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav ul li #contact-me {
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: var(--hoverpink);
+}
+
+:root {
+    --background : #1c1c1c;
+    --pink: #f488d7;
+    --hoverpink: #d9ced6;
+    --purple: #5d33fc;
+    --neon:#e3f844;
+    --typewriterSpeed:3s;
+}
+
