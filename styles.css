@@ -1,56 +1,58 @@
 :root {
-    --background : #1c1c1c;
-    --pink: #f488d7;
-    --hoverpink: #d9ced6;
-    --purple: #5d33fc;
-    --neon:#e3f844;
-    --typewriterSpeed:3s;
+    --background: #F0EAD2;
+    --dark-brown: #5D4032;
+    --brown: #836249;
+    --light-green: #C9DFE4;
+    --green: #ABBF73;
 }
 
 html {
 	scroll-behavior: smooth;
+    background-color: var(--background);
+}
+
+body {
+    background-color: var(--background);
+}
+
+h1 {
+    color: var(--dark-brown);
+}
+
+h2, h3, h4 {
+    color: var(--brown);
+}
+
+.card {
+    background-color: var(--light-green);
+}
+
+.list-group-item, .btn-primary {
+    background-color: var(--green);
+    color: white;
+    border: white;
+}
+
+.btn:hover {
+    background-color: var(--light-green);
+    color: black;
+}
+
+.accordion-item {
+    background-color: var(--light-green);
+}
+
+.accordion-button {
+    background-color: var(--light-green);
+}
+
+.alert-info {
+    background-color: var(--light-green);
 }
 
 section {
     padding: 20px;
 }
-
-.card-header {
-    padding: 0.5rem 1rem;
-    margin-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.03);
-    border-bottom: 0.125rem solid rgba(0, 0, 0, 0.125);
-  }
-
-  .masthead {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    background-color: white;
-  }
-  .masthead .masthead-heading {
-    font-size: 2.75rem;
-    line-height: 2.75rem;
-  }
-  .masthead .masthead-subheading {
-    font-size: 1.25rem;
-  }
-  .masthead .masthead-avatar {
-    width: 15rem;
-  }
-  
-  @media (min-width: 992px) {
-    .masthead {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
-    .masthead .masthead-heading {
-      font-size: 4rem;
-      line-height: 3.5rem;
-    }
-    .masthead .masthead-subheading {
-      font-size: 1.5rem;
-    }
-  }
 
 #progress-bar {
     --scrollAmount: 0%;
@@ -91,11 +93,11 @@ nav {
 nav ul li {
     display: inline-block;
     margin-right: 30px;
-    font-family: 'AlteHaasGroteskBold', sans-serif;
+    
 }
 
 nav ul li a {
-    color: black;
+    color: var(--green);
     text-decoration: none;
     padding: 20px;
     font-size: 20px;
@@ -106,7 +108,7 @@ nav ul li #contact-me {
 }
 
 nav ul li a:hover {
-    color: var(--hoverpink);
+    color: var(--light-green);
 }
 
 
