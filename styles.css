@@ -1,3 +1,12 @@
+:root {
+    --background : #1c1c1c;
+    --pink: #f488d7;
+    --hoverpink: #d9ced6;
+    --purple: #5d33fc;
+    --neon:#e3f844;
+    --typewriterSpeed:3s;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -48,7 +57,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--pink);
+    color: black;
     text-decoration: none;
     padding: 20px;
     font-size: 20px;
@@ -62,12 +71,5 @@ nav ul li a:hover {
     color: var(--hoverpink);
 }
 
-:root {
-    --background : #1c1c1c;
-    --pink: #f488d7;
-    --hoverpink: #d9ced6;
-    --purple: #5d33fc;
-    --neon:#e3f844;
-    --typewriterSpeed:3s;
-}
+
 
