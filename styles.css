@@ -2,8 +2,18 @@
     --background: #FFF;
     --dark-brown: #5D4032;
     --brown: #836249;
-    --light-green: #C9DFE4;
+    --light-blue: #D6E7EA;
     --green: #ABBF73;
+}
+
+@font-face {
+	font-family: 'Satoshi';
+	src: url(fonts/Satoshi.ttf);
+}
+
+@font-face {
+	font-family: 'Gulax';
+	src: url(fonts/Gulax.otf);
 }
 
 html {
@@ -13,6 +23,7 @@ html {
 
 body {
     background-color: var(--background);
+    font-family: 'Satoshi';
 }
 
 h1 {
@@ -20,11 +31,11 @@ h1 {
 }
 
 h2, h3, h4 {
-    color: var(--brown);
+    color: var(--dark-brown);
 }
 
 .card {
-    background-color: var(--light-green);
+    background-color: var(--light-blue);
 }
 
 .list-group-item, .btn-primary {
@@ -34,20 +45,20 @@ h2, h3, h4 {
 }
 
 .btn:hover {
-    background-color: var(--light-green);
+    background-color: var(--light-blue);
     color: black;
 }
 
 .accordion-item {
-    background-color: var(--light-green);
+    background-color: var(--light-blue);
 }
 
 .accordion-button {
-    background-color: var(--light-green);
+    background-color: var(--light-blue);
 }
 
 .alert-info {
-    background-color: var(--light-green);
+    background-color: var(--light-blue);
 }
 
 section {
@@ -68,13 +79,12 @@ section {
 }
 
 .jumbotron {
-    background: url("img/background-jumbotron.jpg") center center / cover no-repeat;
+    background-color: var(--green);
     color: white;
     padding: 5rem 2rem;
     margin-bottom: 2rem;
     border-radius: .3rem;
     margin-top: 1rem;
-    font-size: 2rem;
 }
 
 nav {
@@ -97,18 +107,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--green);
+    color: var(--dark-brown);
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
 }
 
-nav ul li #contact-me {
-    text-decoration: underline;
-}
-
 nav ul li a:hover {
-    color: var(--light-green);
+    color: var(--light-blue);
 }
 
 
