@@ -1,5 +1,5 @@
 :root {
-    --background: #F0EAD2;
+    --background: #FFF;
     --dark-brown: #5D4032;
     --brown: #836249;
     --light-green: #C9DFE4;
@@ -87,7 +87,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100000;
+    z-index: 999;
 }
 
 nav ul li {
@@ -99,7 +99,7 @@ nav ul li {
 nav ul li a {
     color: var(--green);
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     font-size: 20px;
 }
 
